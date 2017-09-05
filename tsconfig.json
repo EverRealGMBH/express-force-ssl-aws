@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib/",
+    "sourceMap": true,
+    "target": "ES5",
+    "module": "commonjs",
+    "lib": ["es7", "es2017", "dom"],
+    "declaration": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "pretty": true,
+    "noImplicitReturns": true
+  },
+  "files": [
+    "./src/index.ts"
+  ]
+}

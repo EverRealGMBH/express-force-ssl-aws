@@ -1,0 +1,20 @@
+{
+  "name": "@everreal/express-force-ssl-aws",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "author": "EverReal Gmbh <info@everreal.co>",
+  "license": "MIT",
+  "repository": {},
+  "scripts": {
+    "lint": "./node_modules/tslint/bin/tslint 'src/**/*.ts'",
+    "build": "rm -rf ./lib/* && tsc",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.26",
+    "tslint": "^5.7.0",
+    "tslint-eslint-rules": "^4.1.1",
+    "typescript": "^2.5.2"
+  }
+}
