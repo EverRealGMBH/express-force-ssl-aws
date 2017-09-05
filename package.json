@@ -1,11 +1,10 @@
 {
   "name": "@everreal/express-force-ssl-aws",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
-  "author": "EverReal Gmbh <info@everreal.co>",
-  "license": "MIT",
-  "repository": {},
+  "author": "EverReal Gmbh <info@everreal.co> (https://www.everreal.co)",
+  "description": "Express middleware to force 301 redirect to HTTPS only when after a load balancer (AWS ALB but not only)",
   "scripts": {
     "lint": "./node_modules/tslint/bin/tslint 'src/**/*.ts'",
     "build": "rm -rf ./lib/* && tsc",
@@ -16,5 +15,26 @@
     "tslint": "^5.7.0",
     "tslint-eslint-rules": "^4.1.1",
     "typescript": "^2.5.2"
+  },
+  "keywords": [
+    "ssl",
+    "tls",
+    "https",
+    "middleware",
+    "express",
+    "aws"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/EverRealGMBH/express-force-ssl-aws/blob/master/LICENSE.md"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EverRealGMBH/express-force-ssl-aws"
   }
 }
